@@ -19,33 +19,29 @@
         android:paddingBottom="@dimen/vs_10"
         android:visibility="gone"
         tools:visibility="visible">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/vs_10"
             android:orientation="horizontal">
             <TextView
-
             android:id="@+id/tv_info_name"
-
             android:layout_width="wrap_content"
-
             android:layout_height="wrap_content"
-
-            android:layout_gravity="left"
-
+            android:layout_marginEnd="@dimen/vs_5"
+            android:layout_marginRight="@dimen/vs_5"
             android:ellipsize="end"
-
             android:maxLines="1"
-
             android:padding="@dimen/vs_20"
-
             android:text="http://"
-
             android:textColor="@android:color/white"
-
             android:textSize="@dimen/ts_24" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vs_10"
+            android:orientation="horizontal">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
